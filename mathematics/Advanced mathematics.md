@@ -9,6 +9,8 @@
   - [目录（Table of Contents）](#目录table-of-contents)
   - [一.零基础知识](#一零基础知识)
     - [1.基本逻辑](#1基本逻辑)
+    - [2.数学归纳法](#2数学归纳法)
+- [二.函数极限与连续](#二函数极限与连续)
 
 
 ---
@@ -19,15 +21,25 @@
 
 ### 1.基本逻辑
 
-~~*歪日真记不清了*~~
+~~*歪日真有点记不清了*~~
 
-若A$\Rightarrow$B,则称A是B的充分条件，B是A的必要条件  
-若A$\Leftrightarrow$B,则称A是B的充要条件  
-若A$\neq$B,则称A是B的无关条件  
+若A $\Rightarrow$ B,则称A是B的充分条件，B是A的必要条件  
+若A $\Leftrightarrow$ B,则称A是B的充要条件  
+若A $\neq$ B,则称A是B的无关条件  
 
 $$A\Rightarrow B,则\neg B \Rightarrow \neg A$$  
 $$\neg (A \cap B)=\neg A \cup \neg B$$
 $$\neg (A \cup B)=\neg A \cap \neg B$$
 
+### 2.数学归纳法
+
+设T(n)是关于自然数n的命题，  
+1. T(1)成立
+2. 设T(k)(k>=1)成立
+3. 证明T(k+1)成立  
+
+ 则T(n)成立
+
+# 二.函数极限与连续
 
 
