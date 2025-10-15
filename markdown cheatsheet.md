@@ -33,6 +33,7 @@
 ---
 
 ## 1. 标题 (Headings)
+
 使用 `#` 号来创建标题，`#` 的数量代表标题的级别。
 
 ```markdown
@@ -88,7 +89,7 @@
 ## 5. 列表 (Lists)
 
 ### 无序列表 (Unordered Lists)
-使用 `*`, `+`, 或 `-` 来创建无序列表。
+使用 `*`, `+`, 或 `-` 来创建无序列表。(他们是等价的)
 
 - 列表项 A
   - 嵌套列表项 A1
@@ -144,9 +145,9 @@ greet('GitHub');
 ## 8. 图片 (Images)
 语法与链接类似，只是在前面加一个感叹号 `!`。
 
-`![替代文字](图片URL)`
+`![文字](图片URL)`
 
-![GitHub Octocat](https://octodex.github.com/images/yaktocat.png "The Yaktocat")
+![HCHO](images/HCHO.jpg)
 
 ---
 
@@ -212,6 +213,39 @@ $$
 | 极限 | `\lim_{x \to \infty}` | $\lim_{x \to \infty}$ |
 | 希腊字母 | `\alpha, \beta, \gamma` | $\alpha, \beta, \gamma$ |
 | 上标/下标 | `x^2`, `y_{10}` | $x^2$, $y_{10}$ |
+
+**更多LaTex语法：**
+
+| 含义 (Meaning) | LaTeX 命令 (Command) | 显示效果 (Rendered) |
+| :--- | :---: | :---: |
+| **逻辑连词 (Logical Connectives)** | | |
+| 与 (and) | `\land` 或 `\wedge` | $\land, \wedge$ |
+| 或 (or) | `\lor` 或 `\vee` | $\lor, \vee$ |
+| 非 (not) | `\neg` | $\neg$ |
+| 蕴含 (implies) | `\rightarrow` | $\rightarrow$ |
+| 逻辑蕴含 (logical implication) | `\Rightarrow` | $\Rightarrow$ |
+| 当且仅当 (if and only if, iff) | `\leftrightarrow` | $\leftrightarrow$ |
+| 逻辑等价 (logical equivalence) | `\Leftrightarrow` | $\Leftrightarrow$ |
+| 否定|`\neg`|$\neg$|
+| **量词 (Quantifiers)** | | |
+| 对所有 (for all) | `\forall` | $\forall$ |
+| 存在 (there exists) | `\exists` | $\exists$ |
+| **集合论 (Set Theory)** | | |
+| 属于 (element of) | `\in` | $\in$ |
+| 不属于 (not an element of) | `\notin` | $\notin$ |
+| 子集 (subset of) | `\subset` | $\subset$ |
+| 子集或等于 (subset or equal to) | `\subseteq` | $\subseteq$ |
+| 父集 (superset of) | `\supset` | $\supset$ |
+| 父集或等于 (superset or equal to) | `\supseteq` | $\supseteq$ |
+| 并集 (union) | `\cup` | $\cup$ |
+| 交集 (intersection) | `\cap` | $\cap$ |
+| 空集 (empty set) | `\emptyset` | $\emptyset$ |
+| **证明与推论 (Proof and Inference)** | | |
+| 所以 (therefore) | `\therefore` | $\therefore$ |
+| 因为 (because) | `\because` | $\because$ |
+| Tautology (顶) | `\top` | $\top$ |
+| Contradiction (底) | `\bot` | $\bot$ |
+| 断言/推导出 (turnstile) | `\vdash` | $\vdash$ |
 
 ---
 
