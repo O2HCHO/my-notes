@@ -3,3 +3,6 @@ authors = ["O2HCHO"]
 language = "en"
 src = "src"
 title = "My Notes"
+
+[output.html]
+mathjax-support = true
