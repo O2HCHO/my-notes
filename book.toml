@@ -6,3 +6,9 @@ title = "My Notes"
 
 [output.html]
 mathjax-support = true
+
+[output.html.mathjax-options]
+tex = { delimiters = [
+  { left = "$$", right = "$$", display = true },
+  { left = "$", right = "$", display = false }
+] }
