@@ -268,5 +268,5 @@ Markdown 支持直接写入 HTML 代码，这给了你更大的灵活性。
 使用 `<details>` 和 `<summary>` 创建一个可折叠的内容区域。
 <details>
   <summary>点击这里展开/折叠</summary>
-  这里是可以被隐藏和显示的内容。
+  这里是可以被隐藏和显示的内容捏^-^。
 </details>
