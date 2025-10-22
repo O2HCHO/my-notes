@@ -5,7 +5,7 @@
 ---
 
 # 基础备忘
-- [Markdown语法备忘](markdown-cheatsheet.md)
+- [Markdown语法备忘录](Markdown备忘录.md)
 
 ---
 
