@@ -2,8 +2,6 @@
 
 欢迎来到我的个人知识库！这是一个全面的 Markdown 语法参考。它涵盖了从基础到高级的各种语法，特别包含了 GitHub Flavored Markdown (GFM) 的常用功能以及 LaTeX 数学公式的用法。
 
-$\int_{a}^{b}a^n *b$
-
 ---
 
 ## 目录 (Table of Contents)
