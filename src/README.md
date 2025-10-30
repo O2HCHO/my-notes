@@ -1,4 +1,4 @@
 # My Notes
 My personal notes on study and life
 
-$f(x)^2$
+Watch it in：**https://o2hcho.github.io/my-notes/**

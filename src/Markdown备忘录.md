@@ -253,6 +253,70 @@ $$
 | Contradiction (底) | `\bot` | $\bot$ |
 | 断言/推导出 (turnstile) | `\vdash` | $\vdash$ |
 
+**希腊字母 (Greek Letters)**
+
+**注意：** 大写希腊字母的命令通常是首字母大写，例如 `\gamma` (小写 $\gamma$) 和 `\Gamma` (大写 $\Gamma$)。
+
+| 小写字母 | LaTeX 命令 | 大写字母 | LaTeX 命令 |
+| :---: | :---: | :---: | :---: |
+| $\alpha$ | `\alpha` | $A$ | `A` (就是A) |
+| $\beta$ | `\beta` | $B$ | `B` (就是B) |
+| $\gamma$ | `\gamma` | $\Gamma$ | `\Gamma` |
+| $\delta$ | `\delta` | $\Delta$ | `\Delta` |
+| $\epsilon$ | `\epsilon` | $E$ | `E` (就是E) |
+| $\zeta$ | `\zeta` | $Z$ | `Z` (就是Z) |
+| $\eta$ | `\eta` | $H$ | `H` (就是H) |
+| $\theta$ | `\theta` | $\Theta$ | `\Theta` |
+| $\iota$ | `\iota` | $I$ | `I` (就是I) |
+| $\kappa$ | `\kappa` | $K$ | `K` (就是K) |
+| $\lambda$ | `\lambda` | $\Lambda$ | `\Lambda` |
+| $\mu$ | `\mu` | $M$ | `M` (就是M) |
+| $\nu$ | `\nu` | $N$ | `N` (就是N) |
+| $\xi$ | `\xi` | $\Xi$ | `\Xi` |
+| $o$ | `o` | $O$ | `O` (就是o) |
+| $\pi$ | `\pi` | $\Pi$ | `\Pi` |
+| $\rho$ | `\rho` | $P$ | `P` (就是P) |
+| $\sigma$ | `\sigma` | $\Sigma$ | `\Sigma` |
+| $\tau$ | `\tau` | $T$ | `T` (就是T) |
+| $\upsilon$ | `\upsilon` | $\Upsilon$ | `\Upsilon` |
+| $\phi$ | `\phi` | $\Phi$ | `\Phi` |
+| $\chi$ | `\chi` | $X$ | `X` (就是X) |
+| $\psi$ | `\psi` | $\Psi$ | `\Psi` |
+| $\omega$ | `\omega` | $\Omega$ | `\Omega` |
+
+**特殊的变体字母：**
+
+| 变体 | LaTeX 命令 |
+| :---: | :---: |
+| $\varepsilon$ | `\varepsilon` |
+| $\vartheta$ | `\vartheta` |
+| $\varpi$ | `\varpi` |
+| $\varrho$ | `\varrho` |
+| $\varsigma$ | `\varsigma` |
+| $\varphi$ | `\varphi` |
+
+---
+
+**基本运算符 (Basic Operators)**
+
+| 含义 | LaTeX 命令 | 渲染效果 |
+| :--- | :---: | :---: |
+| 加号 | `+` | $+$ |
+| 减号 | `-` | $-$ |
+| 乘号 (点) | `\cdot` | $\cdot$ |
+| 乘号 (叉) | `\times` | $\times$ |
+| 除号 (分数线) | `\frac{a}{b}` | $\frac{a}{b}$ |
+| 除号 (横线) | `\div` | $\div$ |
+| 正负号 | `\pm` | $\pm$ |
+| 负正号 | `\mp` | $\mp$ |
+| 等于号 | `=` | $=$ |
+| 不等于 | `\ne` 或 `\neq` | $\ne$ |
+| 约等于 | `\approx` | $\approx$ |
+| 大于 | `>` | $>$ |
+| 小于 | `<` | $<$ |
+| 大于等于 | `\ge` 或 `\geq` | $\ge$ |
+| 小于等于 | `\le` 或 `\leq` | $\le$ |
+
 ---
 
 ## 13. 高级技巧 (Advanced Tips)
