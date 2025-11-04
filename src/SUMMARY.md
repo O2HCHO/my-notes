@@ -12,4 +12,5 @@
 # 专业笔记
 - [数学](mathematics/Advanced-mathematics.md)
 - [自动控制原理](mathematics/自动控制原理/automatic-control.md)
+- [嵌入式开发](MCU/keil.md)
 
