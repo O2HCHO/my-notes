@@ -7,3 +7,6 @@ title = "My Notes"
 [output.html]
 table-of-contents = true
 git-repository-url = "https://github.com/O2HCHO/my-notes"
+
+[preprocessor.katex]
+macros = {}
