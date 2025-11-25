@@ -29,6 +29,14 @@
   - [13. 高级技巧 (Advanced Tips)](#13-高级技巧-advanced-tips)
     - [转义字符 (Escaping Characters)](#转义字符-escaping-characters)
     - [嵌入 HTML](#嵌入-html)
+  - [14. 彩色提示框 (Admonitions)](#14-彩色提示框-admonitions)
+    - [基础用法](#基础用法)
+    - [更多类型展示](#更多类型展示)
+      - [1. 警告 (Warning)](#1-警告-warning)
+      - [2. 成功 (Success)](#2-成功-success)
+      - [3. 小贴士 (Tip)](#3-小贴士-tip)
+      - [4. 错误/失败 (Failure)](#4-错误失败-failure)
+      - [5. 折叠样式 (Collapsible)](#5-折叠样式-collapsible)
 
 ---
 
@@ -337,3 +345,60 @@ Markdown 支持直接写入 HTML 代码，这给了你更大的灵活性。
   <summary>点击这里展开/折叠</summary>
   这里是可以被隐藏和显示的内容捏^-^。
 </details>
+
+## 14. 彩色提示框 (Admonitions)
+
+这是我们新安装的 `mdbook-admonish` 插件的效果展示。它可以生成醒目的彩色区块，非常适合用来写提示、警告或补充说明。
+
+### 基础用法
+
+**语法代码**：
+
+````markdown
+
+```admonish note "这是标题"
+这里写提示框的内容。支持 **Markdown** 语法。
+```
+````
+
+**渲染效果**：
+
+```admonish note "这是标题"
+这里写提示框的内容。支持 **Markdown** 语法。
+
+```
+
+---
+
+### 更多类型展示
+
+#### 1. 警告 (Warning)
+```admonish warning "注意安全"
+这是一条警告信息！请务必小心操作。
+```
+
+#### 2. 成功 (Success)
+```admonish success
+**恭喜！** 你的插件配置完美运行。如果不写标题，默认为 "Success"。
+```
+
+#### 3. 小贴士 (Tip)
+```admonish tip "小技巧"
+这是一个有用的小知识点。
+```
+
+#### 4. 错误/失败 (Failure)
+```admonish failure "运行错误"
+哎呀，程序崩溃了。
+```
+
+#### 5. 折叠样式 (Collapsible)
+如果不希望内容占用太多空间，可以设置为默认折叠：
+
+````admonish example "点击展开查看详细代码"
+
+```python
+def hello():
+    print("Hello Admonish!")
+```
+````
