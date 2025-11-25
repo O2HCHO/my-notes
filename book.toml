@@ -7,3 +7,4 @@ title = "My Notes"
 [output.html]
 
 [preprocessor.katex]
+macros = {}
