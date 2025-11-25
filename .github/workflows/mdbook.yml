@@ -31,10 +31,10 @@ jobs:
           components: rustfmt
 
       - name: Install mdbook
-        run: cargo install mdbook --locked
+        run: cargo install mdbook --version 0.4.48
 
       - name: Install mdBook Preprocessors
-        run: cargo install mdbook-katex
+        run: cargo install mdbook-katex mdbook-admonish
 
       - name: Build mdBook
         run: mdbook build
