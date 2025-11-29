@@ -14,3 +14,5 @@
 - [自动控制原理](mathematics/自动控制原理/automatic-control.md)
 - [嵌入式开发](MCU/keil.md)
 
+# 思政社科
+- [马克思主义基本原理](思政社科/Marxism.md)
