@@ -395,7 +395,7 @@ Markdown 支持直接写入 HTML 代码，这给了你更大的灵活性。
 #### 5. 折叠样式 (Collapsible)
 如果不希望内容占用太多空间，可以设置为默认折叠：
 
-````admonish example "点击展开查看详细代码"
+````admonish example
 
 ```python
 def hello():
