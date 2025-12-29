@@ -713,7 +713,10 @@ $$\Phi(s) = \frac{\omega_n^2}{s^2 + 2\zeta\omega_n s + \omega_n^2}$$
 #### (1) 上升时间 $t_r$
 输出第一次达到稳态值 1 的时间。
 $$t_r = \frac{\pi - \beta}{\omega_d}$$
-> 注意：$\beta$ 需代入弧度值。
+
+```admonish tip
+注意：$\beta$ 需代入弧度值。 ($\beta = \arccos\zeta$)
+```
 
 #### (2) 峰值时间 $t_p$
 输出达到第一个峰值的时间。
@@ -721,7 +724,10 @@ $$t_p = \frac{\pi}{\omega_d} = \frac{\pi}{\omega_n\sqrt{1-\zeta^2}}$$
 
 #### (3) 超调量 $\sigma\%$
 $$\sigma\% = e^{-\frac{\pi\zeta}{\sqrt{1-\zeta^2}}} \times 100\%$$
-> 结论：超调量仅取决于阻尼比 $\zeta$。$\zeta \downarrow \Rightarrow \sigma\% \uparrow$。
+
+```admonish tip
+结论：超调量仅取决于阻尼比 $\zeta$。$\zeta \downarrow \Rightarrow \sigma\% \uparrow$。
+```
 
 #### (4) 调节时间 $t_s$
 * **5% 误差带**：$$t_s \approx \frac{3}{\zeta\omega_n}$$
@@ -748,7 +754,9 @@ $$\sigma\% = e^{-\frac{\pi\zeta}{\sqrt{1-\zeta^2}}} \times 100\%$$
 * **速度误差系数**：$K_v = \lim_{s \to 0} s \cdot G(s)H(s) = K$ (仅限I型)
 * **加速度误差系数**：$K_a = \lim_{s \to 0} s^2 \cdot G(s)H(s) = K$ (仅限II型)
 
-> **注意**：计算 $K$ 值前，必须将传递函数化为**时间常数形式** (即括号内常数项为 1)。
+```admonish tip
+**注意**：计算 $K$ 值前，必须将传递函数化为**时间常数形式** (即括号内常数项为 1)。
+```
 
 ---
 
