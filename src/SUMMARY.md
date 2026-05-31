@@ -19,3 +19,6 @@
 - [马克思主义基本原理](思政社科/Marxism.md)
 
 - [简历](MCU/Resume.md)
+
+# 一生一芯
+- [F阶段](YSYX/Phase-F.md)
